@@ -93,7 +93,9 @@ To provide an interactive question-answering system based on a large collection 
 6. Provide path for models accordingly inside code (Mistral, mpnet base v2)
 7. !python -m spacy download en_core_web_sm - If facing an error while loading spacy model
 8. for downloading mpnet in the terminal enter a) git lfs install b) !git clone https://huggingface.co/sentence-transformers/all-mpnet-base-v2
-9. python app.py to run the application
+9. for downloading crossencoder model use these commands in terminal a)git lfs install b)git clone
+https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2
+10. python app.py to run the application
 
 Set the SECRET_KEY in the app.config:
 
